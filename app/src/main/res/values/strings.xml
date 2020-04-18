@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ToyShiShop</string>
+    <string name="category_nav_title_shisha">Ναργιλέδες</string>
+    <string name="flavor">Γεύσεις</string>
+    <string name="accessories">Αξερουάρ</string>
+    <string name="pants">Παντελόνια</string>
+    <string name="jeans">Τζιν</string>
+    <string name="shorts">Σορτσάκια</string>
+    <string name="hoodies">Μπουφάν</string>
+    <string name="shirts">Κοντομάνικα</string>
+    <string name="long_sleeved">Μπλούζες</string>
+</resources>
