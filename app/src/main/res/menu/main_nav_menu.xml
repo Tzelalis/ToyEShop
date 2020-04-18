@@ -21,12 +21,14 @@
             android:title="@string/jeans"/>
 
         <item
+            android:id="@+id/hoodies"
+            android:title="@string/hoodies"/>
+
+        <item
             android:id="@+id/accessories"
             android:title="@string/accessories"/>
 
-        <item
-            android:id="@+id/hoodies"
-            android:title="@string/hoodies"/>
+
 
     </group>
 
