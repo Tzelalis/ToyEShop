@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/shirts"
-            android:title="@string/shirts"/>
+            android:title="@string/shirts" />
         <item
             android:id="@+id/long_sleeved"
-            android:title="@string/long_sleeved"/>
+            android:title="@string/long_sleeved" />
 
         <item
             android:id="@+id/shorts"
-            android:title="@string/shorts"/>
+            android:title="@string/shorts" />
         <item
             android:id="@+id/pants"
-            android:title="@string/pants"/>
+            android:title="@string/pants" />
         <item
             android:id="@+id/jeans"
-            android:title="@string/jeans"/>
+            android:title="@string/jeans" />
 
         <item
             android:id="@+id/hoodies"
-            android:title="@string/hoodies"/>
+            android:title="@string/hoodies" />
 
         <item
             android:id="@+id/accessories"
-            android:title="@string/accessories"/>
-
+            android:title="@string/accessories" />
 
 
     </group>

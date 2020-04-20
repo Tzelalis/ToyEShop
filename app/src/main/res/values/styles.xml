@@ -13,6 +13,21 @@
         <item name="windowActionBar">false</item>
     </style>
 
+    <style name="productsRecyclerViewPriceText">
+        <item name="android:textSize">24sp</item>\
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="productsRecyclerViewOldPriceText">
+        <item name="android:textColor">@color/oldPrice</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="productsRecyclerViewDescriptionText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
 
 
 </resources>

@@ -1,17 +1,23 @@
-package com.example.toyshishop;
+package com.example.toyshishop.UI;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.toyshishop.R;
 import com.google.android.material.navigation.NavigationView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -24,8 +30,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.main_nav_drawer_layout);
 
         //add custom toolbar
+        //we use inflate with menuItemListener and no setSupportActionBar(toolbar) because we want to inflate toolbar with custom menu
         Toolbar toolbar = findViewById(R.id.main_toolbar);
-        setSupportActionBar(toolbar);
+        toolbar.inflateMenu(R.menu.main_toolbar_menu);
+
+        toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+//                ShopFragment fragment = (ShopFragment) getFragmentManager().findFragmentById(R.id.shop_fragment);
+//                fragment.();
+                return false;
+            }
+        });
+
 
         //add toggle button on toolbar for navigation drawer
         drawerLayout = findViewById(R.id.drawer_layout);
