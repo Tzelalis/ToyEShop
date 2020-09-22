@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingStart="8dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="8dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/recyclerViewOrderIdTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textStyle="bold"
+        tools:text="0000007" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingEnd="4dp">
+
+        <TextView
+            android:id="@+id/recyclerViewCustomerFirstnameTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Παναγιώτης" />
+
+        <TextView
+            android:id="@+id/recyclerViewCustomerLastnameTextBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Τζελαλής" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#444567</color>
+    <color name="colorPrimaryDark">#353652</color>444567
+    <color name="colorAccent">#8082c5</color>
 
     <color name="oldPrice">#636363</color>
     <color name="productItemBackground">#FFFFFF</color>
+
+    <color name="colorDiscountText">#FFFFFF</color>
+    <color name="colorDiscountBackground">#656C97</color>
+
+    <color name="secondToolbar">#FFFCF8</color>
+
+    <color name="textInputLayoutErrorColor">#FF4343</color>
+
+    <color name="deleteDarkRed">#A60D0D</color>
+    <color name="addMinusButtonsRecycleriewColor">#E68484A1</color>
+    <color name="orderBackButtonColor">#AAAAAA</color>
 </resources>

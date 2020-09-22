@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/accept_contextual_accept_item"
+        android:icon="@drawable/check__clip_art"
+        android:title="@string/accept_contextual_edit_item"
+        app:showAsAction="ifRoom" />
+</menu>

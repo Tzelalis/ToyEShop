@@ -3,33 +3,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/products_categories_nav"
+        android:checkableBehavior="single">
         <item
-            android:id="@+id/shirts"
-            android:title="@string/shirts" />
+            android:id="@+id/shisha_nav"
+            android:title="@string/shisha_nav_title" />
         <item
-            android:id="@+id/long_sleeved"
-            android:title="@string/long_sleeved" />
+            android:id="@+id/flavors_nav"
+            android:title="@string/flavor_nav_title" />
 
         <item
-            android:id="@+id/shorts"
-            android:title="@string/shorts" />
-        <item
-            android:id="@+id/pants"
-            android:title="@string/pants" />
-        <item
-            android:id="@+id/jeans"
-            android:title="@string/jeans" />
+            android:id="@+id/accessories_nav"
+            android:title="@string/accessories_nav_title" />
+    </group>
 
+    <group
+        android:id="@+id/admin"
+        android:checkableBehavior="single">
         <item
-            android:id="@+id/hoodies"
-            android:title="@string/hoodies" />
-
+            android:id="@+id/product_nav"
+            android:title="@string/products_nav_title"/>
         <item
-            android:id="@+id/accessories"
-            android:title="@string/accessories" />
+            android:id="@+id/customers_nav"
+            android:title="@string/customers_nav_title"/>
+        <item
+            android:id="@+id/orders_nav"
+            android:title="@string/orders_nav_title"/>
+    </group>
 
-
+    <group
+        android:id="@+id/cart_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/cart_nav"
+            android:title="@string/cartNavTitle"/>
     </group>
 
 </menu>

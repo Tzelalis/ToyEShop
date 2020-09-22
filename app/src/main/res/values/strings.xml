@@ -1,17 +1,87 @@
 <resources>
     <string name="app_name">ToyShiShop</string>
-    <string name="category_nav_title_shisha">Ναργιλέδες</string>
-    <string name="flavor">Γεύσεις</string>
-    <string name="accessories">Αξερουάρ</string>
-    <string name="pants">Παντελόνια</string>
-    <string name="jeans">Τζιν</string>
-    <string name="shorts">Σορτσάκια</string>
-    <string name="hoodies">Μπουφάν</string>
-    <string name="shirts">Κοντομάνικα</string>
-    <string name="long_sleeved">Μπλούζες</string>
-    <string name="main_nav_drawer_header_icon_desc">Header Icon of Nav Drawer</string>
+
+    <!--Nav menu strings    -->
+    <string name="shisha_nav_title">Ναργιλέδες</string>
+    <string name="flavor_nav_title">Γεύσεις</string>
+    <string name="accessories_nav_title">Αξερουάρ</string>
+    <string name="products_nav_title">Προϊόντα</string>
+    <string name="customers_nav_title">Πελάτες</string>
+    <string name="orders_nav_title">Παραγγελίες</string>
     <string name="drawer_open">Open Navigation Drawer</string>
     <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="cartNavTitle">Καλάθι</string>
+
+    <!--Nav menu Header stirng-->
+    <string name="nav_header_company_name">Sun-Shisha</string>
+    <string name="nav_header_description">ToyApp by Tzelalis Panagiotis</string>
+    <string name="main_nav_drawer_header_icon_desc">Header Icon of Nav Drawer</string>
+
+
     <string name="search">Search</string>
+
+    <!--Add Product to basket    -->
+    <string name="productTitle">Προσθήκη στο καλάθι</string>
+
+    <!--Add Customer Strings    -->
+    <string name="firstNameHint">Όνομα</string>
+    <string name="lastNameHint">Επίθετο</string>
+    <string name="emailHint">Email</string>
+    <string name="phoneHint">Τηλέφωνο</string>
+    <string name="addCustomerTitle">Προσθήκη Πελάτη</string>
+    <string name="submitButton">Προσθήκη</string>
+    <string name="toolbarExitButtonTitle">exitButton</string>
+
+    <!--Specific Customer Strings    -->
+    <string name="specificCustomerFirstNameLabel">Όνομα:</string>
+    <string name="specificCustomerLastNameLabel">Επίθετο:</string>
+    <string name="specificCustomerPhoneLabel">Τηλέφωνο:</string>
+    <string name="specificCustomerEmailLabel">Email:</string>
+    <string name="specificCustomerFTotalOrdersLabel">Αγορές:</string>
+
+    <!--Add Product Strings    -->
+    <string name="addProductTitle">Προσθήκη Προϊόντος</string>
+    <string name="addProductNameLabel">Όνομα</string>
+    <string name="addProductDescriptionLabel">Περιγραφή</string>
+    <string name="addProductPriceLabel">Τιμή</string>
+    <string name="addProductOldPriceLabel">Παλιά Τιμή</string>
+    <string name="addProductShishaCategory">Ναργιλέδες</string>
+    <string name="addProductFlavorCategory">Γεύσεις</string>
+    <string name="addProductAccessoriesCategory">Αξεσουάρ</string>
+    <string name="addProductQuantity">Απόθεμα</string>
+    <string name="addProductAddImageButtonText">ΠΡΟΣΘΗΚΗ ΕΙΚΟΝΑΣ</string>
+    <string name="addProductRemoveImageButton">Αφαίρεση εικόνας</string>
+
+    <string name="product_admin_item_image">Product Item</string>
+
+    <!--Delete Customer Alert Dialog Strings    -->
+    <string name="deleteCustomerTitle">Οριστική διαγραφή</string>
+    <string name="deleteCustomerSupportText">Θέλετε να διαγράψετε οριστικά τον πελάτη </string>
+    <string name="deleteCustomerAcceptButton">ΔΙΑΓΡΑΦΗ</string>
+    <string name="deleteCustomerCancelButton">Έξοδος</string>
+
+    <!--Delete Product Alert Dialog Strings    -->
+    <string name="deleteProductTitle">Οριστική διαγραφή</string>
+    <string name="deleteProductSupportText">Θέλετε να διαγράψετε οριστικά το προϊόν </string>
+    <string name="deleteProductAcceptButton">ΔΙΑΓΡΑΦΗ</string>
+    <string name="deleteProductCancelButton">Έξοδος</string>
+
+    <string name="addToolbarMenuItemTitle">Προσθήκη</string>
+
+    <!-- Delete Order Alert Dialog Strings-->
+    <string name="deleteOrderTitle">Οριστική διαγραφή</string>
+    <string name="deleteOrderSupportText">ελετε να διαγράψετε οριστικά τη παραγγελεία του </string>
+    <string name="deleteOrderAcceptButton">ΔΙΑΓΡΑΦΗ</string>
+    <string name="deleteOrderCancelButton">Έξοδος</string>
+
+    <string name="accept_contextual_edit_item">Edit</string>
+    <string name="accept_contexual_cancel_item">Cancel</string>
+
+    <!--    cart strings-->
+    <string name="snackBarText">Διαγραφή προϊόντος…</string>
+    <string name="snackBarButton">Αναίρεση</string>
+    <string name="cartBackButton">Πίσω</string>
+    <string name="cartCompleteButton">Ολοκλήρωση</string>
+    <string name="cartCustomerAutoCompleteEditText">Πελάτης</string>
 
 </resources>

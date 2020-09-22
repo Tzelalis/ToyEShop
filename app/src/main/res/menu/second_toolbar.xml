@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/secondToolbarEditButton"
+        android:icon="@drawable/edit_clip_art"
+        android:title="@string/toolbarExitButtonTitle"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/secondToolbarDeleteButton"
+        android:icon="@drawable/delete_clip_art"
+        app:showAsAction="ifRoom"
+        android:title="Delete"/>
+</menu>

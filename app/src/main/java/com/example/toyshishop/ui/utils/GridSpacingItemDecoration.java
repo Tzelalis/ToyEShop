@@ -1,4 +1,4 @@
-package com.example.toyshishop.UI;
+package com.example.toyshishop.ui.utils;
 
 import android.graphics.Rect;
 import android.view.View;
